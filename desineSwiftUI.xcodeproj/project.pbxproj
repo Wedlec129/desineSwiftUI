@@ -52,6 +52,12 @@
 		5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3712A7027DA00C41677 /* drowOnCoord29.swift */; };
 		5BF4A3762A702A9600C41677 /* graf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3752A702A9600C41677 /* graf.swift */; };
 		5BF4A3782A702BF200C41677 /* gird31.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3772A702BF200C41677 /* gird31.swift */; };
+		5BF4A37C2A70707F00C41677 /* testing1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A37B2A70707F00C41677 /* testing1.swift */; };
+		5BF4A37E2A70721F00C41677 /* testing2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A37D2A70721F00C41677 /* testing2.swift */; };
+		5BF4A3802A70724700C41677 /* testing3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A37F2A70724700C41677 /* testing3.swift */; };
+		5BF4A3822A70726200C41677 /* testing4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3812A70726200C41677 /* testing4.swift */; };
+		5BF4A3842A70727C00C41677 /* testing5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3832A70727C00C41677 /* testing5.swift */; };
+		5BF4A3862A70732F00C41677 /* testing6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3852A70732F00C41677 /* testing6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +131,12 @@
 		5BF4A3712A7027DA00C41677 /* drowOnCoord29.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drowOnCoord29.swift; sourceTree = "<group>"; };
 		5BF4A3752A702A9600C41677 /* graf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graf.swift; sourceTree = "<group>"; };
 		5BF4A3772A702BF200C41677 /* gird31.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gird31.swift; sourceTree = "<group>"; };
+		5BF4A37B2A70707F00C41677 /* testing1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing1.swift; sourceTree = "<group>"; };
+		5BF4A37D2A70721F00C41677 /* testing2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing2.swift; sourceTree = "<group>"; };
+		5BF4A37F2A70724700C41677 /* testing3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing3.swift; sourceTree = "<group>"; };
+		5BF4A3812A70726200C41677 /* testing4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing4.swift; sourceTree = "<group>"; };
+		5BF4A3832A70727C00C41677 /* testing5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing5.swift; sourceTree = "<group>"; };
+		5BF4A3852A70732F00C41677 /* testing6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */,
+				5BF4A37A2A70705A00C41677 /* old */,
 				5BF4A3322A70074F00C41677 /* drowBase */,
 				5BF4A32E2A70059800C41677 /* Binding15.swift */,
 				5BF4A3302A70068200C41677 /* StaticData16.swift */,
@@ -245,6 +258,19 @@
 				5BF4A35F2A701A2800C41677 /* Info.plist */,
 			);
 			path = widget;
+			sourceTree = "<group>";
+		};
+		5BF4A37A2A70705A00C41677 /* old */ = {
+			isa = PBXGroup;
+			children = (
+				5BF4A37B2A70707F00C41677 /* testing1.swift */,
+				5BF4A37D2A70721F00C41677 /* testing2.swift */,
+				5BF4A37F2A70724700C41677 /* testing3.swift */,
+				5BF4A3812A70726200C41677 /* testing4.swift */,
+				5BF4A3832A70727C00C41677 /* testing5.swift */,
+				5BF4A3852A70732F00C41677 /* testing6.swift */,
+			);
+			path = old;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +374,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BF4A3802A70724700C41677 /* testing3.swift in Sources */,
 				5BF4A34A2A70190000C41677 /* listSheet25.swift in Sources */,
 				5BF4A32D2A6FFEF600C41677 /* ColorPicker14.swift in Sources */,
 				5BF4A31F2A6E992800C41677 /* LongPress8.swift in Sources */,
@@ -357,6 +384,7 @@
 				5BF4A33A2A7010EC00C41677 /* AnimationRepeat20.swift in Sources */,
 				5BF4A3482A70188800C41677 /* appStorege.swift in Sources */,
 				5BF4A3762A702A9600C41677 /* graf.swift in Sources */,
+				5BF4A37E2A70721F00C41677 /* testing2.swift in Sources */,
 				5BF4A36A2A7023E200C41677 /* Picker26.swift in Sources */,
 				5BF4A31B2A6E968700C41677 /* ViewTransitions6.swift in Sources */,
 				5BF4A32F2A70059800C41677 /* Binding15.swift in Sources */,
@@ -364,7 +392,9 @@
 				5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */,
 				5BF4A3152A6E931E00C41677 /* toolBar3.swift in Sources */,
 				5BF4A3232A6E9C6300C41677 /* MatchedGeometry10.swift in Sources */,
+				5BF4A37C2A70707F00C41677 /* testing1.swift in Sources */,
 				5BF4A36C2A7024B000C41677 /* modIfView.swift in Sources */,
+				5BF4A3842A70727C00C41677 /* testing5.swift in Sources */,
 				5BF4A32B2A6FFDCB00C41677 /* NavigationView13.swift in Sources */,
 				5BF4A3342A70078D00C41677 /* FullScreenModal17.swift in Sources */,
 				5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */,
@@ -373,6 +403,8 @@
 				5BF4A3292A6FFCA800C41677 /* LazyStacks12.swift in Sources */,
 				5BF4A3132A6E92CD00C41677 /* sideBar2.swift in Sources */,
 				5BF4A3032A6E921000C41677 /* desineSwiftUIApp.swift in Sources */,
+				5BF4A3862A70732F00C41677 /* testing6.swift in Sources */,
+				5BF4A3822A70726200C41677 /* testing4.swift in Sources */,
 				5BF4A3382A70100000C41677 /* HorizontalScrollwithrotate3DEffect19.swift in Sources */,
 				5BF4A3362A700E1B00C41677 /* RedactedPlaceholder18.swift in Sources */,
 				5BF4A3422A70154300C41677 /* hideKeyboard23.swift in Sources */,
