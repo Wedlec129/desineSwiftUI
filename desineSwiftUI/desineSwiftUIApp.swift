@@ -11,8 +11,8 @@ import SwiftUI
 struct desineSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-            //CoreDataViewModel()
+            //ContentView()
+            CoreDataBootcamp()
         }
     }
 }

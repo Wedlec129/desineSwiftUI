@@ -9,7 +9,7 @@ import SwiftUI
 import CoreData
 
 // View - UI
-// Model - data point
+// Model - data point creat auto
 // ViewModel - manages the data for a view
 
 
@@ -17,7 +17,7 @@ class CoreDataViewModel: ObservableObject {
     
     let container: NSPersistentContainer
     @Published var savedEntities: [FruitEntity] = []
-    
+    //FruitEntity our class crate auto
     init() {
         container = NSPersistentContainer(name: "FruitsContainer")
         container.loadPersistentStores { (description, error) in
@@ -25,6 +25,7 @@ class CoreDataViewModel: ObservableObject {
                 print("ERROR LOADING CORE DATA. \(error)")
             }
         }
+        
         fetchFruits()
     }
     
