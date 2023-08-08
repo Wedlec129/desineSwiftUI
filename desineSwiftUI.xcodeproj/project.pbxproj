@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944F7E2A826B3B00B6C327 /* state01.swift */; };
+		5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB21B92A825F0B0088E9C0 /* jsView.swift */; };
 		5BF4A3032A6E921000C41677 /* desineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */; };
 		5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3042A6E921000C41677 /* ContentView.swift */; };
 		5BF4A3072A6E921100C41677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF4A3062A6E921100C41677 /* Assets.xcassets */; };
@@ -85,6 +87,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B944F7E2A826B3B00B6C327 /* state01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state01.swift; sourceTree = "<group>"; };
+		5BDB21B92A825F0B0088E9C0 /* jsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsView.swift; sourceTree = "<group>"; };
 		5BF4A2FF2A6E921000C41677 /* desineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desineSwiftUIApp.swift; sourceTree = "<group>"; };
 		5BF4A3042A6E921000C41677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -159,6 +163,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BDB21B82A825EEC0088E9C0 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				5BDB21B92A825F0B0088E9C0 /* jsView.swift */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		5BDB21BD2A8262C80088E9C0 /* dataStoreg */ = {
+			isa = PBXGroup;
+			children = (
+				5BF4A3302A70068200C41677 /* StaticData16.swift */,
+				5BF4A33F2A70141C00C41677 /* UserDefaults22.swift */,
+				5BF4A3472A70188800C41677 /* appStorege.swift */,
+				5B944F7E2A826B3B00B6C327 /* state01.swift */,
+				5BF4A32E2A70059800C41677 /* Binding15.swift */,
+			);
+			path = dataStoreg;
+			sourceTree = "<group>";
+		};
 		5BF4A2F62A6E921000C41677 = {
 			isa = PBXGroup;
 			children = (
@@ -184,24 +208,8 @@
 				5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */,
 				5BF4A37A2A70705A00C41677 /* old */,
 				5BF4A3322A70074F00C41677 /* drowBase */,
-				5BF4A32E2A70059800C41677 /* Binding15.swift */,
-				5BF4A3302A70068200C41677 /* StaticData16.swift */,
-				5BF4A3332A70078D00C41677 /* FullScreenModal17.swift */,
-				5BF4A3352A700E1B00C41677 /* RedactedPlaceholder18.swift */,
-				5BF4A3372A70100000C41677 /* HorizontalScrollwithrotate3DEffect19.swift */,
-				5BF4A3392A7010EC00C41677 /* AnimationRepeat20.swift */,
-				5BF4A33D2A70130600C41677 /* Date21.swift */,
-				5BF4A33F2A70141C00C41677 /* UserDefaults22.swift */,
-				5BF4A3472A70188800C41677 /* appStorege.swift */,
-				5BF4A3412A70154300C41677 /* hideKeyboard23.swift */,
-				5BF4A3452A7017C100C41677 /* shareButton24.swift */,
-				5BF4A3492A70190000C41677 /* listSheet25.swift */,
-				5BF4A3692A7023E200C41677 /* Picker26.swift */,
-				5BF4A36B2A7024B000C41677 /* modIfView.swift */,
-				5BF4A36D2A70260300C41677 /* swipe28.swift */,
-				5BF4A3712A7027DA00C41677 /* drowOnCoord29.swift */,
-				5BF4A3752A702A9600C41677 /* graf.swift */,
-				5BF4A3772A702BF200C41677 /* gird31.swift */,
+				5BDB21BD2A8262C80088E9C0 /* dataStoreg */,
+				5BDB21B82A825EEC0088E9C0 /* json */,
 				5BF4A3062A6E921100C41677 /* Assets.xcassets */,
 				5BF4A3082A6E921100C41677 /* Preview Content */,
 			);
@@ -234,6 +242,20 @@
 				5BF4A3282A6FFCA800C41677 /* LazyStacks12.swift */,
 				5BF4A32A2A6FFDCB00C41677 /* NavigationView13.swift */,
 				5BF4A32C2A6FFEF600C41677 /* ColorPicker14.swift */,
+				5BF4A3332A70078D00C41677 /* FullScreenModal17.swift */,
+				5BF4A3352A700E1B00C41677 /* RedactedPlaceholder18.swift */,
+				5BF4A3372A70100000C41677 /* HorizontalScrollwithrotate3DEffect19.swift */,
+				5BF4A3392A7010EC00C41677 /* AnimationRepeat20.swift */,
+				5BF4A33D2A70130600C41677 /* Date21.swift */,
+				5BF4A3412A70154300C41677 /* hideKeyboard23.swift */,
+				5BF4A3452A7017C100C41677 /* shareButton24.swift */,
+				5BF4A3492A70190000C41677 /* listSheet25.swift */,
+				5BF4A3692A7023E200C41677 /* Picker26.swift */,
+				5BF4A36B2A7024B000C41677 /* modIfView.swift */,
+				5BF4A36D2A70260300C41677 /* swipe28.swift */,
+				5BF4A3712A7027DA00C41677 /* drowOnCoord29.swift */,
+				5BF4A3752A702A9600C41677 /* graf.swift */,
+				5BF4A3772A702BF200C41677 /* gird31.swift */,
 			);
 			path = drowBase;
 			sourceTree = "<group>";
@@ -398,6 +420,7 @@
 				5BF4A32B2A6FFDCB00C41677 /* NavigationView13.swift in Sources */,
 				5BF4A3342A70078D00C41677 /* FullScreenModal17.swift in Sources */,
 				5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */,
+				5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */,
 				5BF4A3612A701A2800C41677 /* widget.intentdefinition in Sources */,
 				5BF4A3192A6E95F700C41677 /* AnimationStates5.swift in Sources */,
 				5BF4A3292A6FFCA800C41677 /* LazyStacks12.swift in Sources */,
@@ -407,6 +430,7 @@
 				5BF4A3822A70726200C41677 /* testing4.swift in Sources */,
 				5BF4A3382A70100000C41677 /* HorizontalScrollwithrotate3DEffect19.swift in Sources */,
 				5BF4A3362A700E1B00C41677 /* RedactedPlaceholder18.swift in Sources */,
+				5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */,
 				5BF4A3422A70154300C41677 /* hideKeyboard23.swift in Sources */,
 				5BF4A3402A70141C00C41677 /* UserDefaults22.swift in Sources */,
 				5BF4A36E2A70260300C41677 /* swipe28.swift in Sources */,
