@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B3FB5792A82A45400A5E1E6 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB5772A82A45400A5E1E6 /* FruitsContainer.xcdatamodeld */; };
 		5B3FB57B2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB57A2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift */; };
 		5B3FB57D2A82A72400A5E1E6 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB57C2A82A72400A5E1E6 /* TimerBootcamp.swift */; };
 		5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944F7E2A826B3B00B6C327 /* state01.swift */; };
@@ -29,6 +28,7 @@
 		5B944FE62A829C9B00B6C327 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */; };
 		5B944FE92A829F1B00B6C327 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */; };
 		5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB21B92A825F0B0088E9C0 /* jsView.swift */; };
+		5BE3C44B2A83C06D004D88F3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */; };
 		5BF4A3032A6E921000C41677 /* desineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */; };
 		5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3042A6E921000C41677 /* ContentView.swift */; };
 		5BF4A3072A6E921100C41677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF4A3062A6E921100C41677 /* Assets.xcassets */; };
@@ -107,7 +107,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B3FB5782A82A45400A5E1E6 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		5B3FB57A2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		5B3FB57C2A82A72400A5E1E6 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		5B944F7E2A826B3B00B6C327 /* state01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = state01.swift; sourceTree = "<group>"; };
@@ -129,6 +128,7 @@
 		5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		5BDB21B92A825F0B0088E9C0 /* jsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsView.swift; sourceTree = "<group>"; };
+		5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		5BF4A2FF2A6E921000C41677 /* desineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desineSwiftUIApp.swift; sourceTree = "<group>"; };
 		5BF4A3042A6E921000C41677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */,
-				5B3FB5772A82A45400A5E1E6 /* FruitsContainer.xcdatamodeld */,
+				5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */,
 			);
 			path = coreData;
 			sourceTree = "<group>";
@@ -495,9 +495,9 @@
 				5BF4A32F2A70059800C41677 /* Binding15.swift in Sources */,
 				5B944FCF2A8297AB00B6C327 /* TabBarItemsPreferenceKey.swift in Sources */,
 				5BF4A3462A7017C100C41677 /* shareButton24.swift in Sources */,
-				5B3FB5792A82A45400A5E1E6 /* FruitsContainer.xcdatamodeld in Sources */,
 				5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */,
 				5B944FD12A8297C200B6C327 /* TabBarItem.swift in Sources */,
+				5BE3C44B2A83C06D004D88F3 /* FruitsContainer.xcdatamodeld in Sources */,
 				5BF4A3152A6E931E00C41677 /* toolBar3.swift in Sources */,
 				5BF4A3232A6E9C6300C41677 /* MatchedGeometry10.swift in Sources */,
 				5B944FDF2A829B9000B6C327 /* SoundsBootcamp.swift in Sources */,
@@ -821,14 +821,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5B3FB5772A82A45400A5E1E6 /* FruitsContainer.xcdatamodeld */ = {
+		5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5B3FB5782A82A45400A5E1E6 /* FruitsContainer.xcdatamodel */,
+				5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */,
 			);
-			currentVersion = 5B3FB5782A82A45400A5E1E6 /* FruitsContainer.xcdatamodel */;
+			currentVersion = 5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */;
 			name = FruitsContainer.xcdatamodeld;
-			path = "../../../../../../../../needAddInMyRepo/SwiftUI-Continued-Learning-main/SwiftfulThinkingContinuedLearning/FruitsContainer.xcdatamodeld";
+			path = "../../../../../../../../../.Trash/SwiftUI-Continued-Learning-main/SwiftfulThinkingContinuedLearning/FruitsContainer.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
