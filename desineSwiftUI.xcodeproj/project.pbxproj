@@ -28,7 +28,8 @@
 		5B944FE62A829C9B00B6C327 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */; };
 		5B944FE92A829F1B00B6C327 /* CoreDataBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */; };
 		5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB21B92A825F0B0088E9C0 /* jsView.swift */; };
-		5BE3C44B2A83C06D004D88F3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */; };
+		5BE3C44E2A83C11A004D88F3 /* observAndPublich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */; };
+		5BE3C4512A83C263004D88F3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C44F2A83C263004D88F3 /* FruitsContainer.xcdatamodeld */; };
 		5BF4A3032A6E921000C41677 /* desineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */; };
 		5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3042A6E921000C41677 /* ContentView.swift */; };
 		5BF4A3072A6E921100C41677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF4A3062A6E921100C41677 /* Assets.xcassets */; };
@@ -128,7 +129,8 @@
 		5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBootcamp.swift; sourceTree = "<group>"; };
 		5BDB21B92A825F0B0088E9C0 /* jsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsView.swift; sourceTree = "<group>"; };
-		5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observAndPublich.swift; sourceTree = "<group>"; };
+		5BE3C4502A83C263004D88F3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
 		5BF4A2FF2A6E921000C41677 /* desineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desineSwiftUIApp.swift; sourceTree = "<group>"; };
 		5BF4A3042A6E921000C41677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -228,7 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				5B944FE82A829F1B00B6C327 /* CoreDataBootcamp.swift */,
-				5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */,
+				5BE3C44F2A83C263004D88F3 /* FruitsContainer.xcdatamodeld */,
 			);
 			path = coreData;
 			sourceTree = "<group>";
@@ -244,8 +246,17 @@
 				5BF4A32E2A70059800C41677 /* Binding15.swift */,
 				5B944FE72A829E1600B6C327 /* coreData */,
 				5B3FB57A2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift */,
+				5BE3C44C2A83C0E5004D88F3 /* stateObsEnvir */,
 			);
 			path = dataStoreg;
+			sourceTree = "<group>";
+		};
+		5BE3C44C2A83C0E5004D88F3 /* stateObsEnvir */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */,
+			);
+			path = stateObsEnvir;
 			sourceTree = "<group>";
 		};
 		5BF4A2F62A6E921000C41677 = {
@@ -483,6 +494,7 @@
 				5B944FE62A829C9B00B6C327 /* HashableBootcamp.swift in Sources */,
 				5BF4A3782A702BF200C41677 /* gird31.swift in Sources */,
 				5BF4A33E2A70130600C41677 /* Date21.swift in Sources */,
+				5BE3C4512A83C263004D88F3 /* FruitsContainer.xcdatamodeld in Sources */,
 				5BF4A33A2A7010EC00C41677 /* AnimationRepeat20.swift in Sources */,
 				5B944FDB2A829B1600B6C327 /* ScrollViewReaderBootcamp.swift in Sources */,
 				5BF4A3482A70188800C41677 /* appStorege.swift in Sources */,
@@ -497,7 +509,6 @@
 				5BF4A3462A7017C100C41677 /* shareButton24.swift in Sources */,
 				5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */,
 				5B944FD12A8297C200B6C327 /* TabBarItem.swift in Sources */,
-				5BE3C44B2A83C06D004D88F3 /* FruitsContainer.xcdatamodeld in Sources */,
 				5BF4A3152A6E931E00C41677 /* toolBar3.swift in Sources */,
 				5BF4A3232A6E9C6300C41677 /* MatchedGeometry10.swift in Sources */,
 				5B944FDF2A829B9000B6C327 /* SoundsBootcamp.swift in Sources */,
@@ -524,6 +535,7 @@
 				5B3FB57B2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift in Sources */,
 				5B944FE92A829F1B00B6C327 /* CoreDataBootcamp.swift in Sources */,
 				5BF4A3362A700E1B00C41677 /* RedactedPlaceholder18.swift in Sources */,
+				5BE3C44E2A83C11A004D88F3 /* observAndPublich.swift in Sources */,
 				5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */,
 				5B944FDD2A829B5300B6C327 /* MaskBootcamp.swift in Sources */,
 				5BF4A3422A70154300C41677 /* hideKeyboard23.swift in Sources */,
@@ -821,14 +833,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5BE3C4492A83C06D004D88F3 /* FruitsContainer.xcdatamodeld */ = {
+		5BE3C44F2A83C263004D88F3 /* FruitsContainer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */,
+				5BE3C4502A83C263004D88F3 /* FruitsContainer.xcdatamodel */,
 			);
-			currentVersion = 5BE3C44A2A83C06D004D88F3 /* FruitsContainer.xcdatamodel */;
-			name = FruitsContainer.xcdatamodeld;
-			path = "../../../../../../../../../.Trash/SwiftUI-Continued-Learning-main/SwiftfulThinkingContinuedLearning/FruitsContainer.xcdatamodeld";
+			currentVersion = 5BE3C4502A83C263004D88F3 /* FruitsContainer.xcdatamodel */;
+			path = FruitsContainer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
