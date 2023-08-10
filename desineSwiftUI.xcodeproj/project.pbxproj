@@ -83,7 +83,7 @@
 		5BF4A3822A70726200C41677 /* testing4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3812A70726200C41677 /* testing4.swift */; };
 		5BF4A3842A70727C00C41677 /* testing5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3832A70727C00C41677 /* testing5.swift */; };
 		5BF4A3862A70732F00C41677 /* testing6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3852A70732F00C41677 /* testing6.swift */; };
-		5BFD7E1E2A8509D000409F25 /* enveropment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD7E1D2A8509D000409F25 /* enveropment.swift */; };
+		5BFD7E1E2A8509D000409F25 /* observ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD7E1D2A8509D000409F25 /* observ2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,7 +188,7 @@
 		5BF4A3812A70726200C41677 /* testing4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing4.swift; sourceTree = "<group>"; };
 		5BF4A3832A70727C00C41677 /* testing5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing5.swift; sourceTree = "<group>"; };
 		5BF4A3852A70732F00C41677 /* testing6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing6.swift; sourceTree = "<group>"; };
-		5BFD7E1D2A8509D000409F25 /* enveropment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enveropment.swift; sourceTree = "<group>"; };
+		5BFD7E1D2A8509D000409F25 /* observ2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observ2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,7 +410,7 @@
 		5BFD7E1C2A85099900409F25 /* 2 */ = {
 			isa = PBXGroup;
 			children = (
-				5BFD7E1D2A8509D000409F25 /* enveropment.swift */,
+				5BFD7E1D2A8509D000409F25 /* observ2.swift */,
 			);
 			path = 2;
 			sourceTree = "<group>";
@@ -551,7 +551,7 @@
 				5B3FB57D2A82A72400A5E1E6 /* TimerBootcamp.swift in Sources */,
 				5BF4A32B2A6FFDCB00C41677 /* NavigationView13.swift in Sources */,
 				5BF4A3342A70078D00C41677 /* FullScreenModal17.swift in Sources */,
-				5BFD7E1E2A8509D000409F25 /* enveropment.swift in Sources */,
+				5BFD7E1E2A8509D000409F25 /* observ2.swift in Sources */,
 				5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */,
 				5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */,
 				5BF4A3612A701A2800C41677 /* widget.intentdefinition in Sources */,

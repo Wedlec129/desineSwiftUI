@@ -51,7 +51,7 @@ class FruitViewModel: ObservableObject {
 }
 
 
-struct enveropment: View {
+struct observ2: View {
     // @StateObject -> USE THIS ON CREATION / INIT //только для одного экрана
     // @ObservedObject -> USE THIS FOR SUBVIEWS     //если в другие вью пихаем
     @StateObject var fruitViewModel: FruitViewModel = FruitViewModel()
@@ -91,7 +91,7 @@ struct enveropment: View {
 
 
 struct RandomScreen: View {
-    
+    //для закрытия экрана
     @Environment(\.presentationMode) var presentationMode
     
     //типо передали параметры
@@ -120,6 +120,7 @@ struct RandomScreen: View {
                         if !newFruit.isEmpty  {
                             fruitViewModel.addNewFruit(name: newFruit)
                             newFruit=""
+                            
                         }
                         
                     }, label: {
@@ -132,6 +133,9 @@ struct RandomScreen: View {
                 }
                 .padding()
                 Spacer()
+                
+              
+                
             }
            
            
@@ -140,9 +144,9 @@ struct RandomScreen: View {
 }
 
 
-struct enveropment_Previews: PreviewProvider {
+struct observ2_Previews: PreviewProvider {
     static var previews: some View {
-        enveropment()
+        observ2()
         
         //RandomScreen(fruitViewModel: FruitViewModel())
     }
