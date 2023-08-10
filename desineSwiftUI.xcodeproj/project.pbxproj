@@ -30,6 +30,8 @@
 		5BDB21BA2A825F0B0088E9C0 /* jsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDB21B92A825F0B0088E9C0 /* jsView.swift */; };
 		5BE3C44E2A83C11A004D88F3 /* observAndPublich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */; };
 		5BE3C4512A83C263004D88F3 /* FruitsContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C44F2A83C263004D88F3 /* FruitsContainer.xcdatamodeld */; };
+		5BE3C4542A83C5A1004D88F3 /* userSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C4532A83C5A1004D88F3 /* userSettings.swift */; };
+		5BE3C4562A83C610004D88F3 /* observ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3C4552A83C610004D88F3 /* observ.swift */; };
 		5BF4A3032A6E921000C41677 /* desineSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */; };
 		5BF4A3052A6E921000C41677 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3042A6E921000C41677 /* ContentView.swift */; };
 		5BF4A3072A6E921100C41677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BF4A3062A6E921100C41677 /* Assets.xcassets */; };
@@ -81,6 +83,7 @@
 		5BF4A3822A70726200C41677 /* testing4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3812A70726200C41677 /* testing4.swift */; };
 		5BF4A3842A70727C00C41677 /* testing5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3832A70727C00C41677 /* testing5.swift */; };
 		5BF4A3862A70732F00C41677 /* testing6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF4A3852A70732F00C41677 /* testing6.swift */; };
+		5BFD7E1E2A8509D000409F25 /* enveropment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFD7E1D2A8509D000409F25 /* enveropment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +134,8 @@
 		5BDB21B92A825F0B0088E9C0 /* jsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsView.swift; sourceTree = "<group>"; };
 		5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observAndPublich.swift; sourceTree = "<group>"; };
 		5BE3C4502A83C263004D88F3 /* FruitsContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FruitsContainer.xcdatamodel; sourceTree = "<group>"; };
+		5BE3C4532A83C5A1004D88F3 /* userSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userSettings.swift; sourceTree = "<group>"; };
+		5BE3C4552A83C610004D88F3 /* observ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observ.swift; sourceTree = "<group>"; };
 		5BF4A2FF2A6E921000C41677 /* desineSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desineSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = desineSwiftUIApp.swift; sourceTree = "<group>"; };
 		5BF4A3042A6E921000C41677 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -183,6 +188,7 @@
 		5BF4A3812A70726200C41677 /* testing4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing4.swift; sourceTree = "<group>"; };
 		5BF4A3832A70727C00C41677 /* testing5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing5.swift; sourceTree = "<group>"; };
 		5BF4A3852A70732F00C41677 /* testing6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing6.swift; sourceTree = "<group>"; };
+		5BFD7E1D2A8509D000409F25 /* enveropment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enveropment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,8 +261,18 @@
 			isa = PBXGroup;
 			children = (
 				5BE3C44D2A83C11A004D88F3 /* observAndPublich.swift */,
+				5BE3C4522A83C4AB004D88F3 /* sheredDataInView */,
 			);
 			path = stateObsEnvir;
+			sourceTree = "<group>";
+		};
+		5BE3C4522A83C4AB004D88F3 /* sheredDataInView */ = {
+			isa = PBXGroup;
+			children = (
+				5BFCC5192A83D0F600B6F792 /* 1 */,
+				5BFD7E1C2A85099900409F25 /* 2 */,
+			);
+			path = sheredDataInView;
 			sourceTree = "<group>";
 		};
 		5BF4A2F62A6E921000C41677 = {
@@ -380,6 +396,23 @@
 				5BF4A3852A70732F00C41677 /* testing6.swift */,
 			);
 			path = old;
+			sourceTree = "<group>";
+		};
+		5BFCC5192A83D0F600B6F792 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3C4532A83C5A1004D88F3 /* userSettings.swift */,
+				5BE3C4552A83C610004D88F3 /* observ.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		5BFD7E1C2A85099900409F25 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				5BFD7E1D2A8509D000409F25 /* enveropment.swift */,
+			);
+			path = 2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -518,6 +551,7 @@
 				5B3FB57D2A82A72400A5E1E6 /* TimerBootcamp.swift in Sources */,
 				5BF4A32B2A6FFDCB00C41677 /* NavigationView13.swift in Sources */,
 				5BF4A3342A70078D00C41677 /* FullScreenModal17.swift in Sources */,
+				5BFD7E1E2A8509D000409F25 /* enveropment.swift in Sources */,
 				5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */,
 				5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */,
 				5BF4A3612A701A2800C41677 /* widget.intentdefinition in Sources */,
@@ -540,6 +574,8 @@
 				5B944FDD2A829B5300B6C327 /* MaskBootcamp.swift in Sources */,
 				5BF4A3422A70154300C41677 /* hideKeyboard23.swift in Sources */,
 				5BF4A3402A70141C00C41677 /* UserDefaults22.swift in Sources */,
+				5BE3C4542A83C5A1004D88F3 /* userSettings.swift in Sources */,
+				5BE3C4562A83C610004D88F3 /* observ.swift in Sources */,
 				5BF4A36E2A70260300C41677 /* swipe28.swift in Sources */,
 				5BF4A3212A6E9B7900C41677 /* DragGesture9.swift in Sources */,
 				5BF4A3112A6E923600C41677 /* Shapes1.swift in Sources */,
