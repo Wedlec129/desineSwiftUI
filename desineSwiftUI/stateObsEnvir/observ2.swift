@@ -13,8 +13,9 @@ struct FruitModel: Identifiable {
     let count: Int
 }
 
+
 class FruitViewModel: ObservableObject {
-    
+    //like state in observ
     @Published var fruitArray: [FruitModel] = []
     @Published var isLoading: Bool = false
     
@@ -120,7 +121,6 @@ struct RandomScreen: View {
                         if !newFruit.isEmpty  {
                             fruitViewModel.addNewFruit(name: newFruit)
                             newFruit=""
-                            
                         }
                         
                     }, label: {
@@ -130,8 +130,24 @@ struct RandomScreen: View {
                    
                     
                     Spacer()
+                    
+                    
+                    
                 }
                 .padding()
+                
+                VStack(){
+                    
+                    
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }, label: {
+                        Text("Exit")
+                            .foregroundColor(.red)
+                        
+                    })
+                   
+                }
                 Spacer()
                 
               

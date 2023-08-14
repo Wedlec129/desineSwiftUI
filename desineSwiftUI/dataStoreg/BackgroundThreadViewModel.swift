@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//загружаем данные в заднем фоне
 class BackgroundThreadViewModel: ObservableObject {
     
     @Published var dataArray: [String] = []
