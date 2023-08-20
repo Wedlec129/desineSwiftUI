@@ -58,8 +58,43 @@ struct testing2: View {
                     
                 }
                 Label("Lightning", systemImage: "bolt.fill")
+                //Circle()
+                //Ellipse()
+                //Capsule(style: .circular)
+                //Rectangle()
+                RoundedRectangle(cornerRadius: 10)
+                    //.fill(Color.green)
+                    //.foregroundColor(.pink)
+                    //.stroke()
+                    //.stroke(Color.red)
+                    //.stroke(Color.blue, lineWidth: 30)
+                    //.stroke(Color.orange, style: StrokeStyle(lineWidth: 30, lineCap: .round, dash: [30]))
+                    //.trim(from: 0.4, to: 1.0)
+        //            .stroke(Color.purple, lineWidth: 50)
+                    .strokeBorder(Color.red)
+                    .frame(width: 300, height: 200)
+                VStack(alignment: .leading) {
+                    Text("Hello, World!")
+                        .font(.largeTitle)
+                        .fontWeight(.semibold)
+                        .padding(.bottom, 20)
+                    
+                    Text("This is the description of what we will do on this screen. It is multiple lines and we will align the text to the leading edge.")
+                }
+                .padding()
+                .padding(.vertical, 10)
+                .background(
+                    Color.white
+                        .cornerRadius(10)
+                        .shadow(
+                            color: Color.black.opacity(0.3),
+                            radius: 10,
+                            x: 0.0, y: 10)
+                )
+                .padding(.horizontal, 10)
             }
             
+           
             
         }
         

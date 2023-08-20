@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1ACEB72A92380700569FCD /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1ACEB62A92380700569FCD /* test.swift */; };
+		5B1ACEB92A924F7C00569FCD /* OnAppearBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1ACEB82A924F7C00569FCD /* OnAppearBootcamp.swift */; };
+		5B1ACEC32A92507C00569FCD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1ACEBC2A92507C00569FCD /* ProfileView.swift */; };
+		5B242A122A91650E000D8210 /* uikitInSwiftUI1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B242A112A91650E000D8210 /* uikitInSwiftUI1.swift */; };
 		5B3FB57B2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB57A2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift */; };
 		5B3FB57D2A82A72400A5E1E6 /* TimerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3FB57C2A82A72400A5E1E6 /* TimerBootcamp.swift */; };
 		5B5ED2042A852C1700F50CDA /* SheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5ED2032A852C1700F50CDA /* SheetsBootcamp.swift */; };
@@ -121,6 +125,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B1ACEB62A92380700569FCD /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		5B1ACEB82A924F7C00569FCD /* OnAppearBootcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAppearBootcamp.swift; sourceTree = "<group>"; };
+		5B1ACEBC2A92507C00569FCD /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		5B242A112A91650E000D8210 /* uikitInSwiftUI1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uikitInSwiftUI1.swift; sourceTree = "<group>"; };
 		5B3FB57A2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadViewModel.swift; sourceTree = "<group>"; };
 		5B3FB57C2A82A72400A5E1E6 /* TimerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerBootcamp.swift; sourceTree = "<group>"; };
 		5B5ED2032A852C1700F50CDA /* SheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetsBootcamp.swift; sourceTree = "<group>"; };
@@ -231,6 +239,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1ACEB52A9237F800569FCD /* cleanSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5B1ACEB62A92380700569FCD /* test.swift */,
+			);
+			path = cleanSwift;
+			sourceTree = "<group>";
+		};
+		5B242A102A9164C8000D8210 /* UikitWtchSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5B242A112A91650E000D8210 /* uikitInSwiftUI1.swift */,
+			);
+			path = UikitWtchSwiftUI;
+			sourceTree = "<group>";
+		};
 		5B8B89B42A8915C600FD0DD3 /* observ */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,25 +352,11 @@
 			isa = PBXGroup;
 			children = (
 				5BF4A3022A6E921000C41677 /* desineSwiftUIApp.swift */,
+				5B1ACEB52A9237F800569FCD /* cleanSwift */,
 				5BF4A3322A70074F00C41677 /* drowBase */,
-				5B944FD22A82999D00B6C327 /* ColorPickerBootcamp.swift */,
-				5B944FD42A829AAF00B6C327 /* LongPressGestureBootcamp.swift */,
-				5B944FD62A829AD400B6C327 /* RotationGestureBootcamp.swift */,
-				5B944FD82A829AFF00B6C327 /* DragGestureBootcamp2.swift */,
-				5B944FDA2A829B1600B6C327 /* ScrollViewReaderBootcamp.swift */,
-				5B944FDC2A829B5300B6C327 /* MaskBootcamp.swift */,
-				5B944FDE2A829B9000B6C327 /* SoundsBootcamp.swift */,
-				5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */,
-				5B5ED2032A852C1700F50CDA /* SheetsBootcamp.swift */,
-				5B5ED2052A852C3100F50CDA /* PopoverBootcamp.swift */,
-				5B5ED2072A852C8700F50CDA /* ListBootcamp.swift */,
-				5B5ED2092A852CD500F50CDA /* ActionsheetBootcamp.swift */,
-				5B5ED20B2A852D0300F50CDA /* ContextMenuBootcamp.swift */,
-				5B5ED20D2A852D3200F50CDA /* TextfieldBootcamp.swift */,
-				5B5ED20F2A852DBF00F50CDA /* TabViewBootcamp.swift */,
-				5B5ED2112A852E6900F50CDA /* TabViewBootcamp2.swift */,
 				5BDB21BD2A8262C80088E9C0 /* dataStoreg */,
 				5BE3C44C2A83C0E5004D88F3 /* stateObsEnvir */,
+				5B242A102A9164C8000D8210 /* UikitWtchSwiftUI */,
 				5BF4A3062A6E921100C41677 /* Assets.xcassets */,
 				5B944FE02A829BB800B6C327 /* sounds */,
 				5BF4A3082A6E921100C41677 /* Preview Content */,
@@ -398,6 +408,24 @@
 				5B944FC32A82962A00B6C327 /* PressableButtonStyle.swift */,
 				5B3FB57C2A82A72400A5E1E6 /* TimerBootcamp.swift */,
 				5B944FC72A82975000B6C327 /* customTabBar */,
+				5B944FD22A82999D00B6C327 /* ColorPickerBootcamp.swift */,
+				5B944FD42A829AAF00B6C327 /* LongPressGestureBootcamp.swift */,
+				5B944FD62A829AD400B6C327 /* RotationGestureBootcamp.swift */,
+				5B944FD82A829AFF00B6C327 /* DragGestureBootcamp2.swift */,
+				5B944FDA2A829B1600B6C327 /* ScrollViewReaderBootcamp.swift */,
+				5B944FDC2A829B5300B6C327 /* MaskBootcamp.swift */,
+				5B944FDE2A829B9000B6C327 /* SoundsBootcamp.swift */,
+				5B944FE52A829C9B00B6C327 /* HashableBootcamp.swift */,
+				5B5ED2032A852C1700F50CDA /* SheetsBootcamp.swift */,
+				5B5ED2052A852C3100F50CDA /* PopoverBootcamp.swift */,
+				5B5ED2072A852C8700F50CDA /* ListBootcamp.swift */,
+				5B1ACEBC2A92507C00569FCD /* ProfileView.swift */,
+				5B1ACEB82A924F7C00569FCD /* OnAppearBootcamp.swift */,
+				5B5ED2092A852CD500F50CDA /* ActionsheetBootcamp.swift */,
+				5B5ED20B2A852D0300F50CDA /* ContextMenuBootcamp.swift */,
+				5B5ED20D2A852D3200F50CDA /* TextfieldBootcamp.swift */,
+				5B5ED20F2A852DBF00F50CDA /* TabViewBootcamp.swift */,
+				5B5ED2112A852E6900F50CDA /* TabViewBootcamp2.swift */,
 			);
 			path = drowBase;
 			sourceTree = "<group>";
@@ -545,6 +573,7 @@
 				5BF4A34A2A70190000C41677 /* listSheet25.swift in Sources */,
 				5BF4A32D2A6FFEF600C41677 /* ColorPicker14.swift in Sources */,
 				5BF4A31F2A6E992800C41677 /* LongPress8.swift in Sources */,
+				5B242A122A91650E000D8210 /* uikitInSwiftUI1.swift in Sources */,
 				5BF4A31D2A6E97E900C41677 /* AnimationModifier7.swift in Sources */,
 				5B944FE62A829C9B00B6C327 /* HashableBootcamp.swift in Sources */,
 				5B5ED20C2A852D0300F50CDA /* ContextMenuBootcamp.swift in Sources */,
@@ -577,6 +606,7 @@
 				5BFD7E1E2A8509D000409F25 /* observ2.swift in Sources */,
 				5BF4A3722A7027DA00C41677 /* drowOnCoord29.swift in Sources */,
 				5B944F7F2A826B3B00B6C327 /* state01.swift in Sources */,
+				5B1ACEB92A924F7C00569FCD /* OnAppearBootcamp.swift in Sources */,
 				5BF4A3612A701A2800C41677 /* widget.intentdefinition in Sources */,
 				5BF4A3192A6E95F700C41677 /* AnimationStates5.swift in Sources */,
 				5B944FD92A829AFF00B6C327 /* DragGestureBootcamp2.swift in Sources */,
@@ -591,6 +621,7 @@
 				5B944FC92A82976700B6C327 /* AppTabBarView.swift in Sources */,
 				5BF4A3382A70100000C41677 /* HorizontalScrollwithrotate3DEffect19.swift in Sources */,
 				5B3FB57B2A82A66F00A5E1E6 /* BackgroundThreadViewModel.swift in Sources */,
+				5B1ACEC32A92507C00569FCD /* ProfileView.swift in Sources */,
 				5B944FE92A829F1B00B6C327 /* CoreDataBootcamp.swift in Sources */,
 				5BF4A3362A700E1B00C41677 /* RedactedPlaceholder18.swift in Sources */,
 				5B5ED2062A852C3100F50CDA /* PopoverBootcamp.swift in Sources */,
@@ -615,6 +646,7 @@
 				5B5ED2122A852E6900F50CDA /* TabViewBootcamp2.swift in Sources */,
 				5BF4A3272A6E9E5E00C41677 /* LazyVG.swift in Sources */,
 				5B944FC42A82962A00B6C327 /* PressableButtonStyle.swift in Sources */,
+				5B1ACEB72A92380700569FCD /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
