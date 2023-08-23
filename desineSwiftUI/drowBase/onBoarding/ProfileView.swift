@@ -1,8 +1,8 @@
 //
 //  ProfileView.swift
-//  SwiftfulThinkingBootcamp
+//  desineSwiftUI
 //
-//  Created by Nick Sarno on 3/1/21.
+//  Created by Борух Соколов on 20.08.2023.
 //
 
 import SwiftUI
@@ -53,6 +53,7 @@ struct ProfileView: View {
         }
     }
 }
+
 
 struct ProfileView_Previews: PreviewProvider {
     static var previews: some View {

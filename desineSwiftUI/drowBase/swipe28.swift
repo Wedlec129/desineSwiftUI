@@ -21,6 +21,7 @@ struct swipe28: View {
                     }
                     .tint(.red)
                 }
+                .badge("NEW")
         }
         
         

@@ -3,7 +3,7 @@
 //  desineSwiftUI
 //
 //  Created by Борух Соколов on 08.08.2023.
-//
+// многопоточность
 
 import SwiftUI
 
